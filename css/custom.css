@@ -11,7 +11,7 @@ body, body * {
     main {
         display: inline-block;
         width: 800px;
-        margin-top: 100px;
+        margin-top: 60px;
         margin-left: calc(50% - 400px);
     }
         .left-column {
@@ -40,17 +40,58 @@ body, body * {
             .close {
             }
                 .form {
+                    display: inline-block;
+                    width: 100%;
+
                 }
                     .form-row {
-
+                        display: inline-block;
+                        width: 100%;
+                    }
+                    .form-row + .form-row {
+                        margin-top: 40px;
                     }
                          label {
+                             display: inline-block;
+                             width: 100%;
+                             text-transform: uppercase;
+                             font-size: 15px;
+                             line-height: 15px;
+                             font-weight: bold;
+                             color: #777;
                      }
                             input {
+                                display: inline-block;
+                                width: 100%;
+                                border: none;
+                                font-size: 18px;
+                                color: #000;
+                                border-bottom: 1px solid #777;                                line-height: 40px;
                             }
                                 .btn{
+                                    display: inline-block;
+                                    float: left;
+                                    padding: 10px;
+                                    padding-left: 40px;
+                                    padding-right: 40px;
+                                    color: #fff;
+                                    background-color: #0659b3;
+                                    border-radius: 20px;
+                                    font-size: 20px;
+                                    line-height: 20px;
                                 }
                                     .form-row > span {
+                                        display: inline-block;
+                                        float: left;
+                                        padding: 10px;
+                                        line-height: 20px;
+                                        font-size: 20px;
+                                        margin-left: 10px;
                                     }
                                             .form-row > a {
-                                            }
+                                                display: inline-block;
+                                                float: left;
+                                                padding: 10px;
+                                                line-height: 20px;
+                                                font-size: 20px;
+                                            }                                            }
