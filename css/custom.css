@@ -23,7 +23,10 @@ body, body * {
             width: 40%;
             padding: 40px;
             color: #fff;
-
+            background-image: url(../img/kalnai.png);    
+            background-repeat: no-repeat;        
+            background-size: cover;
+            background-position: center;
             position: absolute;
             top: 30px;
             bottom: 30px;
@@ -49,7 +52,7 @@ body, body * {
             position: relative;
         }
             .close {
-                background-color: red;
+                background-color: #fff;
                 display: inline-block;
                 width: 60px;
                 height: 60px;
