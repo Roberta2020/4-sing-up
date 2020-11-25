@@ -8,13 +8,24 @@ body, body * {
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+    .background {
+        display: inline-block;
+        width: 100%;
+        height: 100vh;
+        background-image: url(../img/kalnai.png);    
+        background-repeat: no-repeat;        
+        background-size: cover;
+        background-position: center;
+        filter: blur(30px);
+    }
     main {
         display: inline-block;
         width: 800px;
-        margin-top: 60px;
-        margin-left: calc(50% - 400px);
 
-        position: relative;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
         .left-column {
             background-color: #0659B3;
